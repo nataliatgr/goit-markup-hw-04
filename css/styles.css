@@ -490,6 +490,10 @@ h3{
     height: 100%;   
 }
 
+.social-web-item {
+    height: 40px;
+}
+
 .icon-media-list {
     fill: #f4f4fd;
 }
