@@ -476,9 +476,26 @@ h3{
 
 .social-web-item {
     width: 40px;
-    height: 40px;    
+    height: 40px; 
+    height: 100%;   
 }
 
+.icon-media-list {
+    fill: #f4f4fd;
+}
 .media-list {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color:#4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-list:hover {
+    background-color: #31d0aa;
+}
+
+.media-list:focus {
+    background-color: #31d0aa;
 }
