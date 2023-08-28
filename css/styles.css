@@ -349,7 +349,7 @@ background-size: cover;
 .our-portfolio-item {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.our-portfolio-item:hover {
+.our-portfolio-item:hover .portfolio-text {
     transform: translateY(0%);
 }
 
@@ -358,9 +358,6 @@ background-size: cover;
     overflow: hidden;    
 }
 
-.app {
-    transform: translateY(0%);
-}
 .portfolio-text {
     position: absolute;
     top: 0;
