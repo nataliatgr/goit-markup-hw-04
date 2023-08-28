@@ -358,6 +358,9 @@ background-size: cover;
     overflow: hidden;    
 }
 
+.app {
+    transform: translateY(0%);
+}
 .portfolio-text {
     position: absolute;
     top: 0;
