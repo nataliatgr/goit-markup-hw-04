@@ -292,6 +292,33 @@ background-size: cover;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+.icons-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;    
+}
+.social-media {
+    width: 40px;
+    height: 40px;     
+}
+.media {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.media:hover {
+    background-color: #404bbf;
+}
+.media:focus {
+    background-color: #404bbf;
+}
+.icon-media {
+    fill: #f4f4fd;    
+}
 .team .team-product {
     text-align: center;
 }
