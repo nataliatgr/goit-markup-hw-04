@@ -9,8 +9,7 @@ button {
     }
     a {
         text-decoration: none;
-        display: block;
-        padding: 24px 0; 
+        display: block; 
         }
     img {
         display: block;
@@ -322,10 +321,7 @@ background-size: cover;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
-.icon-media {
-    width: 100%;
-    height: 100%;
-}
+
 .media:hover {
     background-color: #404bbf;
 }
@@ -488,8 +484,7 @@ h3{
 
 .social-web-item {
     width: 40px;
-    height: 40px; 
-    height: 100%;   
+    height: 40px;   
 }
 
 .social-web-item {
@@ -506,6 +501,8 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .media-list:hover {
