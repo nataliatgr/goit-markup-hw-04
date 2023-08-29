@@ -71,6 +71,11 @@ body {
  .curent {
     color: #404bbf;
  }
+
+ .curent-top {
+    color: #404bbf;
+ }
+ 
  .link-nav-link::after {
     position: absolute;
     content: "";
