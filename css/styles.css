@@ -179,6 +179,7 @@ max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+Margin: 0 auto;
 }
 .icon {
     display: flex;
