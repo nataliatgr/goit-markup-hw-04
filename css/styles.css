@@ -72,7 +72,7 @@ body {
     color: #404bbf;
  }
  
- .link-nav-link::after {
+ .curent::after {
     position: absolute;
     content: "";
     left: 0;
@@ -80,6 +80,8 @@ body {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px; 
+    width: 100%; 
+    display: block;
  }
     .curent::after {
         position: absolute;
