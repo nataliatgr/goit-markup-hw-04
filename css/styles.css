@@ -83,15 +83,7 @@ body {
     width: 100%; 
     display: block;
  }
-    .curent::after {
-        position: absolute;
-        content: "";
-        left: 0;
-        bottom: -1px;
-        height: 4px;
-        background-color: #404bbf;
-        border-radius: 2px; 
-    }
+
 .contacts-top {
     display: flex;
     gap: 40px;
